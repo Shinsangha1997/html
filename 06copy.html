@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>폼 앨리먼트</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>개인정보</legend>
+            <label for="fname"> First Nmae</label>
+            <input type="text" name="fname" id="fname"><br>
+            <label for="pwd">password</label>
+            <input type="password" name="pwd" id="pwd"><br>
+            <label for="birth">birth</label>
+            <input type="date" name="btirh" id="birth"><br>
+            <label for="time">time</label>
+            <input type="datetime-local" name="time" id="time"><br>
+            <label for="email">email</label>
+            <input type="email" name="email" id="email"><br>
+            <label for="myfile">파일</label>
+            <input type="file" name="myfile" id="myfile" multiple>
+            <input type="hidden" name="guest" value="1234">
+        </fieldset>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
